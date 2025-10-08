@@ -242,6 +242,12 @@ body {
     border-radius: var(--border-radius-lg);
 }
 
+/* Teaser keywords spacing */
+.keywords {
+  margin-top: 1rem;
+  color: var(--text-secondary);
+}
+
 .publication-body img {
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-md);
