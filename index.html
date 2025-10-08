@@ -246,21 +246,29 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="A Multi-Fidelity Control Variate Approach for Policy Gradient Estimation">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">A Multi-Fidelity Control Variate Approach for Policy Gradient Estimation</h1>
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
                 <a href="https://xinjie-liu.github.io/" target="_blank">Xinjie Liu</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://www.cyrusneary.com/" target="_blank">Cyrus Neary</a><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://scholar.google.com/citations?user=JfH0nfEAAAAJ&hl=en" target="_blank">Kushagra Gupta</a>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=Tf6oDygAAAAJ&hl=en&oi=sra" target="_blank">Wesley A. Suttle</a>
+                  <span class="author-block">
+                    <a href="https://oden.utexas.edu/people/directory/Christian-Ellis/" target="_blank">Christian Ellis</a>
+                  <span class="author-block">
+                    <a href="https://www.ae.utexas.edu/people/faculty/faculty-directory/topcu" target="_blank">Ufuk Topcu</a>
+                  <span class="author-block">
+                    <a href="https://dfridovi.github.io/" target="_blank">David Fridovich-Keil</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <span class="author-block">The University of Texas at Austin, The University of British Columbia, DEVCOM Army Research Laboratory</span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
@@ -269,7 +277,7 @@
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/pdf/2503.05696" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -278,7 +286,7 @@
                       </a>
                     </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
+                    <!-- TODO: Add your supplementary material PDF or remove this section
                     <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
@@ -287,11 +295,11 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/CLeARoboticsLab/MultiFidelityPolicyGradients" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -302,7 +310,7 @@
 
                 <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2503.05696" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -323,14 +331,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
+      <!-- Teaser figure -->
+      <figure class="publication-banner">
+        <img src="static/images/MFPGteaser.png" alt="MFPG teaser image showing the proposed multi-fidelity policy gradient approach">
+      </figure>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        A reinforcement learning framework that mixes limited data from the target environment with a control variate formed from abundant low-fidelity simulation data to construct an unbiased, variance-reduced policy gradient estimator, thereby improving sample efficiency.
       </h2>
     </div>
   </div>
