@@ -731,6 +731,16 @@ a:focus {
   outline-offset: 2px;
 }
 
+/* Disable hover float effect for non-hover figures */
+.publication-banner.no-hover img {
+  cursor: default;
+}
+
+.publication-banner.no-hover img:hover {
+  transform: none;
+  box-shadow: var(--shadow-lg);
+}
+
 
 /* Print styles */
 @media print {
