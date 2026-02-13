@@ -132,11 +132,18 @@ body {
 
 /* Teaser cover image: no drop-shadow "card" effect */
 .publication-banner.no-hover {
-  box-shadow: none;
+  box-shadow: none !important;
+  filter: none !important;
 }
 
 .publication-banner.no-hover img {
   box-shadow: none !important;
+  filter: none !important;
+}
+
+.publication-banner.no-hover img:hover {
+  box-shadow: none !important;
+  transform: none !important;
 }
 
 .publication-banner video {
@@ -753,7 +760,7 @@ a:focus {
 
 .publication-banner.no-hover img:hover {
   transform: none;
-  box-shadow: var(--shadow-lg);
+  box-shadow: none !important;
 }
 
 
