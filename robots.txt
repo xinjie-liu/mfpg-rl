@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xinjie-liu.github.io/mfpg-rl/sitemap.xml
+
