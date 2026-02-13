@@ -130,6 +130,15 @@ body {
   margin: 2rem 0;
 }
 
+/* Teaser cover image: no drop-shadow "card" effect */
+.publication-banner.no-hover {
+  box-shadow: none;
+}
+
+.publication-banner.no-hover img {
+  box-shadow: none !important;
+}
+
 .publication-banner video {
   position: relative;
   left: auto;
