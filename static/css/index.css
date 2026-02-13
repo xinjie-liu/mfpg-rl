@@ -103,9 +103,18 @@ body {
   padding: 4rem 1.5rem;
 }
 
+/* Reduce whitespace between header links and teaser cover */
+.header-hero .hero-body {
+  padding-bottom: 1.5rem;
+}
+
+.teaser .publication-banner {
+  margin: 1.25rem 0;
+}
+
 .teaser .hero-body {
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .teaser {
@@ -175,7 +184,9 @@ body {
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
     margin-top: 1rem;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .publication-awards {
@@ -328,6 +339,8 @@ body {
   font-size: 0.875rem;
   color: var(--text-light);
   font-style: italic;
+  display: block;
+  margin-top: 0.5rem;
 }
 
 /* Section Titles */
