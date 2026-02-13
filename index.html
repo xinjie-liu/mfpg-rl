@@ -346,9 +346,25 @@
         <img src="static/images/MFPGteaser.png" alt="MFPG teaser image showing the proposed multi-fidelity policy gradient approach">
       </figure>
       <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-         Multi-Fidelity Policy Gradient (MFPG) is a sample-efficient RL framework that mixes scarce high-fidelity data with abundant low-fidelity simulation data.
-      </h2>
+      <div class="content">
+        <p class="subtitle has-text-centered">
+          <strong>Challenge</strong>: Real-world or high-fidelity simulation data are expensive and scarce for online reinforcement learning (RL), while abundant low-fidelity data are inexpensive but biased.
+        </p>
+
+        <p class="subtitle has-text-centered">
+          <strong>TL;DR</strong>: <strong>Multi-Fidelity Policy Gradient (MFPG)</strong> is a <strong>multi-fidelity</strong>, <strong>sample-efficient</strong> RL framework that boosts RL with cheap, imperfect data.
+        </p>
+
+        <div class="has-text-left">
+          <p><strong>Key properties</strong>:</p>
+          <ul>
+            <li><strong>Unbiasedness</strong>: grounds learning on scarce, accurate, high-fidelity data</li>
+            <li><strong>Reduced variance</strong>: uses large amounts of cheap, imperfect, low-fidelity data to form a control variate for variance reduction</li>
+            <li><strong>Robustness</strong>: robust to low-fidelity data biases</li>
+            <li><strong>Generality</strong>: handles dynamics gaps and reward misspecification</li>
+          </ul>
+        </div>
+      </div>
       <!-- <p class="keywords subtitle has-text-centered"><strong>Key Words: </strong>Reinforcement Learning, Policy Gradients, Multi-Fidelity Control Variates, Variance Reduction, Sim-to-Real Transfer, Cross-Domain Policy Adaptation, Off-Dynamics Reinforcement Learning</p> -->
     </div>
   </div>
