@@ -182,7 +182,7 @@ body {
 .publication-venue {
     color: var(--text-secondary);
     width: fit-content;
-    font-weight: 600;
+    font-weight: 700;
     background: var(--background-accent);
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
@@ -195,7 +195,7 @@ body {
 .publication-venue .venue-sub {
     display: inline-block;
     margin-top: 0.25rem;
-    font-weight: 500;
+    font-weight: inherit;
     font-size: 0.95em;
 }
 
