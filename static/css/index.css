@@ -192,6 +192,13 @@ body {
     margin-right: auto;
 }
 
+.publication-venue .venue-sub {
+    display: inline-block;
+    margin-top: 0.25rem;
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
 .publication-awards {
     color: #ef4444;
     width: fit-content;
