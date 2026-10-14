@@ -673,7 +673,7 @@ code {
   }
   
   .more-works-container {
-    bottom: 2rem;
+    bottom: 6rem; /* sit above the scroll-to-top button */
     right: 1rem;
     top: auto;
   }
@@ -715,7 +715,7 @@ code {
   
   .more-works-container {
     position: fixed;
-    bottom: 2rem;
+    bottom: 6rem; /* sit above the scroll-to-top button */
     right: 1rem;
     z-index: 1000;
   }
